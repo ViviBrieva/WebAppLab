@@ -10,6 +10,7 @@ namespace BrievaLab.Controllers
     {
         public ActionResult Index()
         {
+            System.Diagnostics.Trace.TraceInformation("Information logged!");
             return View();
         }
 
